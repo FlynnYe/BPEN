@@ -8,7 +8,6 @@ import pytorch_lightning as pl
 import argparse
 import os
 import time
-from Models.utils import PrintValAccuracyCallback
 import numpy as np
 
 
