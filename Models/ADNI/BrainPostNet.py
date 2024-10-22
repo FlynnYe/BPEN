@@ -18,8 +18,6 @@ from torch.nn import TransformerEncoder, TransformerEncoderLayer
 from transformers import BertModel, BertConfig
 from Models.utils import DefineMetricCallback_cls, DefineMetricCallback_reg
 from Encoders.Linear import linear_sequential
-from Encoders.GCN import GCN
-from Encoders.Transformer import Transformer
 from NormalizingFlows.NormalizingFlowDensity import NormalizingFlowDensity
 from NormalizingFlows.BatchedNormalizingFlowDensity import BatchedNormalizingFlowDensity
 from NormalizingFlows.MixtureDensity import MixtureDensity
